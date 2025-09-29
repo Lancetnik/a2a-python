@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.8](https://github.com/a2aproject/a2a-python/compare/v0.3.7...v0.3.8) (2025-09-29)
+
+
+### Bug Fixes
+
+* **grpc:** Fix missing extensions from protobuf ([#476](https://github.com/a2aproject/a2a-python/issues/476)) ([8dbc78a](https://github.com/a2aproject/a2a-python/commit/8dbc78a7a6d2036b0400873b50cfc95a59bdb192))
+* **rest:** send `historyLength=0` (avoid falsy omission) ([#480](https://github.com/a2aproject/a2a-python/issues/480)) ([ed28b59](https://github.com/a2aproject/a2a-python/commit/ed28b5922877c1c8386fd0a7e05471581905bc59)), closes [#479](https://github.com/a2aproject/a2a-python/issues/479)
+
 ## [0.3.7](https://github.com/a2aproject/a2a-python/compare/v0.3.6...v0.3.7) (2025-09-22)
 
 
